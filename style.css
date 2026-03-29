@@ -1,0 +1,40 @@
+/* Базовые стили (Mobile First) 📱 */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.box {
+    width: 100%;
+    margin: 10px 0;
+}
+
+img {
+    width: 90%;
+    height: auto;
+}
+
+
+/* Tablet View */
+@media (min-width: 772px) {
+
+    .box {
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    img {
+        max-height: 30vh;
+    }
+}
+
+
+/* Large Screen View */
+@media (min-width: 998px) {
+
+    .box {
+        width: 30%;
+    }
+}
